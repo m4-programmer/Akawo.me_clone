@@ -1,0 +1,35 @@
+.bg-primary2 {
+  --darkreader-bg--tw-bg-opacity: 1;
+  background-color: rgb(145, 77, 10);
+}
+.bg-header{
+  background-color: rgb(41 31 21);
+}
+.bg-feature{
+  background-color: rgb(26 28 29);
+}
+.bg-nav{
+  background-color: rgb(41 31 21);
+}
+.text-bright{
+  color: #F4A85E;
+}
+.bg-agent{
+  background-color: rgb(33 41 42);
+}
+.bg-savings{
+  background-color: rgb(145 77 10);
+}
+  /* Override Bootstrap button hover effect */
+  .btn-no-hover:hover {
+    background-color: rgb(145, 77, 10) !important;
+    color: white !important;
+    border-color: transparent !important;
+    cursor: pointer;
+  }
+
+  .btn2-no-hover:hover {
+    background-color: rgb(33 41 42) !important;
+    color: #F4A85E !important;
+    border-color: transparent !important;
+  }
